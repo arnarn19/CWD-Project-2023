@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/unbox-logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/39530996c4.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Custom CSS -->
+     <link rel="stylesheet" href="style.css">
+    <title>Iphone 15 Order Form</title>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper white">
+                <a href="index.html" class="brand-logo "><img class="responsive-img ub-logo" src="images/unbox-logo.png " alt="" style="height: 60px; width: 232 px;" ></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger btn small grey darken-3  pulse" ><i class="material-icons yellow-text text-darken-3 pulse">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="yellow-text text-darken-4 hs" href="index.html">Home</a></li>
+                    <li><a class="yellow-text text-darken-4 hs" href="smart_phones.html">Smart Phones</a></li>
+                    <li><a class="yellow-text text-darken-4 hs" href="articles.html">Articles</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Sidenav -->
+
+    <ul class="sidenav yellow darken-3" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+                <li><a href="smart_phones.html">Smart Phones</a></li>
+                <li><a href="articles.html">Articles</a></li>
+               
+    </ul>
+    <!-- Order DP-->
+    <div class="container grey lighten-3">
+        <h1 class="center yellow darken-2 white-text" style="border: solid;">Order Details</h1>
+        <div class="row">
+            <div class="col s12 m6 l12 ">
+                <div class="card-panel hoverable center">
+                    <div class="card-image">
+                        <img src="images/ip15_dp.png" class="responsive-img" alt="">
+                        <div class="divider"></div>
+                        <div class="card-content">
+                            <h5>iPhone 15 128 GB (Black)</h5>
+                            <h6>₱56,990</h6>
+                            <h7 class="red-text text-darken-3 left-align">5.0 
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h7>
+                            <h6 class="red-text text-darken-36right-align ">199 sold</h6>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="center">Share :
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-solid fa-link"></i> </h5>
+            </div>
+
+            <div class="container">
+                <!-- Order form -->
+            <div class="col s12 m6 l12 center ">
+                <div class="card-panel hoverable ">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6"  >
+                                    <input  placeholder="Placeholder" id="first_name" class="validate"  type="text">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input type="text" id="last_name" class="validate" >
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type="text" id="address" class="validate">
+                                    <label for="address">Complete Address</label>
+                                </div>
+                                <div class="col s12 center">
+                                    <button class="btn waves-effect waves-light yellow darken-2  " type="submit" name="action" style="border-radius: 40px;" >Submit  <i class="material-icons right">send</i></button>
+
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <h6>Mode of payment:</h6>
+                                <div class="col s6">
+                                    <!-- Modal trigger -->
+                                    <a href="#modal1" class="waves-effect waves-light btn modal-trigger blue darken-2" style="border-radius: 40px;">Gcash</a>
+                                </div>
+                                <div class="col s6">
+                                    <a href="#modal2" class="waves-effect waves-light btn modal-trigger green darken-2" style="border-radius: 40px;">Maya</a>
+                                </div>
+                                <!-- Modal structure -->
+                                <div class="container">
+                                    <div id="modal1" class="modal modal-size">
+                                        <div class="modal-content">
+                                            <img src="images/gcash.png" class="center responsive-img maya-gcash" alt="">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="input-field col s12">
+                                                        <i class="material-icons prefix">mode_edit</i>
+                                                        <input id="icon_prefix" type="text" id="gcash" class="validate"   >
+
+                                                        <label for="gcash">Account Number</label>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <a href="#!" class="modal-close waves-effect waves-green blue darken-2 btn pay">Pay now</a>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+
+                                <div class="container">
+                                    <div id="modal2" class="modal modal-size ">
+                                        <div class="modal-content">
+                                            <img src="images/maya.png" class="center responsive-img maya-gcash" alt="">
+                                            <div class="container center">
+                                                <div class="row">
+                                                    <div class="input-field col s12">
+                                                        <i class="material-icons prefix">mode_edit</i>
+                                                        <input id="icon_prefix" type="text" id="maya" class="validate"   >
+
+                                                        <label for="maya">Account Number</label>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <a href="#!" class="modal-close waves-effect waves-green darken-2 green btn">Pay now</a>
+                                                        <br><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div> 
+            </div>   
+        </div>
+    
+
+
+
+
+        <div style="height: 200px;"></div>
+    </div>    
+
+<!-- footer -->
+
+<footer class="page-footer yellow darken-2">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Unboxing</h5>
+                <p>Get the latest smartphones news and trends!</p>
+                <input  class="txt-box white" type="text" id="name" placeholder="your email..">
+                <button class="btn grey darken-2 " style="border-radius: 40px;">subscribe</button>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5>Let's connect</h5>
+               
+               <ul>
+                <li><a href="#!" class="grey-text text-lighten-3"><i class="fa-brands fa-facebook" style="margin-right: 10px;"></i>Facebook</a></li>
+                <li><a href="#!" class="grey-text text-lighten-3" style="margin-right: 10px;" ><i class="fa-solid fa-envelope  " style="margin-right: 10px;" ></i>unboxing@gmail.com</a></li>
+                <li><a href="#!" class="grey-text text-lighten-3"><i class="fa-brands fa-instagram" style="margin-right: 10px;"></i>Instagram</a></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © All rights reserved 2023
+            </div>
+        </div>
+</footer>
+
+    
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+
+        $(document).ready(function(){
+            $('.modal').modal();
+        });
+    </script>
+</body>
+</html>
